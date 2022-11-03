@@ -5,9 +5,13 @@ const MainLayout = ({ children }) => {
     return (
         <div id="app">
             <Navbar />
-                <section>
-                    { children }
-                </section>
+            <div className={'circuitosbg'}>
+                <div className={'circuitos_left'}></div>
+                <div className={'circuitos_right'}></div>
+            </div>
+            <section>
+                { children }
+            </section>
             <Footer />
         </div>
     );

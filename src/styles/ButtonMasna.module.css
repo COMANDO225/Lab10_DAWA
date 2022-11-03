@@ -5,6 +5,7 @@
     color: var(--btnNavColor);
     border-radius: 4px;
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 10px 18px;
     min-width: 60px;
@@ -15,6 +16,19 @@
     font-size: 15px;
     cursor: pointer;
     transform: scale(1);
+    height: 42px;
+}
+
+.button.ghost {
+    box-sizing: border-box;
+    background: transparent;
+    color: var(--primarioColor);
+    border: 2px solid var(--primarioColor);
+    height: 38px;
+}
+
+.button.ghost:hover {
+    color: var(--btnNavColor);
 }
 
 .button:hover {
