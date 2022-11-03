@@ -1,0 +1,27 @@
+.button {
+    text-transform: uppercase;
+    background-color: var(--primarioColor);
+    font-weight: 800;
+    color: var(--btnNavColor);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 18px;
+    min-width: 60px;
+    text-align: center;
+    box-shadow: 0 6px 12px -3px rgb(0 0 0 / 10%), 0 4px 5px -2px rgb(0 0 0 / 5%),
+    0 2px 5px 0 rgb(3 169 244 / 20%);
+    transition: all 0.25s;
+    font-size: 15px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.button:hover {
+    background-color: var(--primarioColorActive);
+    box-shadow: var(--bgDropBoxShadow);
+}
+
+.button:active {
+    transform: scale(.96);
+}
